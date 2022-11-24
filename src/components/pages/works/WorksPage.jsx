@@ -4,7 +4,7 @@ import Works from '../../Works/Works';
 const WorksPage = () => {
   return (
     <>
-      <div class='page-title d-flex align-items-center justify-content-center'>
+      <div className='page-title d-flex align-items-center justify-content-center'>
         <h1>Работы</h1>
       </div>
       <main>

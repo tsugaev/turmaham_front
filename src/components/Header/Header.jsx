@@ -1,7 +1,7 @@
 import React from 'react';
 import MainNav from '../Navs/MainNav';
 import styles from './style.module.css';
-import logo from '../assets/images/logo-white.png';
+import Logo from '../Logo/Logo';
 
 const Header = () => {
   return (
@@ -9,11 +9,7 @@ const Header = () => {
       <div className='container-fluid'>
         <div className='row justify-content-between align-items-center'>
           <div className='col-md-auto'>
-            <div className={styles.logo} id='logo'>
-              <a href='/'>
-                <img src={logo} alt='turmaham.com' />
-              </a>
-            </div>
+            <Logo />
           </div>
           <div className='col-auto'>
             <MainNav />

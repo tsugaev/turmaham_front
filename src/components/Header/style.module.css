@@ -5,9 +5,3 @@
   transition: 0.4s;
   box-shadow: 0 0 20px rgb(0 0 0 / 85%);
 }
-.logo {
-  max-width: 220px;
-}
-.logo img {
-  width: 100%;
-}

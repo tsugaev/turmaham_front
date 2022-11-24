@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Projects from '../../Projects/Projects';
 
 const ProjectsPage = () => {
   return (
     <>
-      <div class='page-title d-flex align-items-center justify-content-center'>
+      <div className='page-title d-flex align-items-center justify-content-center'>
         <h1>Проекты</h1>
       </div>
       <main>

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Movies from '../../Movies/Movies';
-import styles from './style.module.css';
 
 const MoviesPage = () => {
   useEffect(() => {
@@ -12,7 +11,7 @@ const MoviesPage = () => {
   }, []);
   return (
     <>
-      <div class='page-title d-flex align-items-center justify-content-center'>
+      <div className='page-title d-flex align-items-center justify-content-center'>
         <h1>Фильмы</h1>
       </div>
       <main>
