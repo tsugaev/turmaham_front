@@ -5,3 +5,6 @@
   transition: 0.4s;
   box-shadow: 0 0 20px rgb(0 0 0 / 85%);
 }
+header nav a {
+  padding: 1.5rem 1rem;
+}

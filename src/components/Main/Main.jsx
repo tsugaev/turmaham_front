@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from './style.module.css';
 
 const Main = () => {
-  return <main id={styles.home}></main>;
+  return <main></main>;
 };
 
 export default Main;

@@ -1,6 +1,6 @@
 import React from 'react';
 import MainNav from '../Navs/MainNav';
-import styles from './style.module.css';
+import styles from './Header.module.css';
 import Logo from '../Logo/Logo';
 
 const Header = () => {

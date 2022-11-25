@@ -1,0 +1,20 @@
+.movie {
+  margin-bottom: 3.13rem;
+}
+.moviePreview {
+  margin-bottom: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px -13px #000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.movieTitle {
+  text-align: center;
+}
+.movieTitle h5 {
+  color: #fff;
+  margin: 0;
+}
+.moviePreview img {
+  width: 100%;
+}

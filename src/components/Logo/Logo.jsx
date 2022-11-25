@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logoClosed from '../../assets/images/logo-white.png';
 import logoOpened from '../../assets/images/logo-open.png';
-import styles from './style.module.css';
+import styles from './Logo.module.css';
 
 const Logo = () => {
   const [logo, setLogo] = useState(logoClosed);

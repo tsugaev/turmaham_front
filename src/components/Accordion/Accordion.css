@@ -1,0 +1,37 @@
+.accordion-item,
+.accordion-button {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+.accordionButton {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+.accordion-header {
+  color: #f7f7f7a1;
+}
+.accordion-header:hover {
+  color: #fff;
+}
+.accordion-button {
+  padding: 1em 1.5em 1em 0;
+  font-size: 1.4rem;
+}
+.accordion-button:not(.collapsed) {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-button::after {
+  background-image: url(../../assets/icons/arrow.svg);
+  transform: rotate(-180deg);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../../assets/icons/arrow.svg);
+  transform: rotate(0);
+}

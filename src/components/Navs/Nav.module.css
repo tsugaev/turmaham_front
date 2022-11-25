@@ -1,0 +1,13 @@
+nav {
+  font-size: 1.1rem;
+}
+.navItem {
+  border-bottom: 3px solid transparent;
+  transition: 0.4s;
+}
+.navLink {
+  display: block;
+}
+.navItem:hover {
+  border-bottom: 3px solid white;
+}

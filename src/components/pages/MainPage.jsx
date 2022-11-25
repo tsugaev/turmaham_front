@@ -9,11 +9,8 @@ const MainPage = () => {
       document.body.removeAttribute('id');
     };
   }, []);
-  return (
-    <div>
-      <Main />
-    </div>
-  );
+
+  return <Main />;
 };
 
 export default MainPage;

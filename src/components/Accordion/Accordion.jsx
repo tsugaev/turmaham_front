@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion as BootstrapAccordion } from 'react-bootstrap';
+import './Accordion.css';
 
 const Accordion = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
@@ -7,12 +8,12 @@ const Footer = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md'>
-              <div className='copyright'>
+              <div className={styles.copyright}>
                 © Цугаев Заурбек.{' '}
                 <a href='mailto:turmaham@inbox.ru'>turmaham@inbox.ru</a>
                 <div>
                   <a
-                    className='use-of-terms-link'
+                    className={styles.useOfTermsLink}
                     href='https://turmaham.com/terms-of-use/'>
                     Все права защищены.
                   </a>
